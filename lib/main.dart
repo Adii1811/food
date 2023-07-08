@@ -11,12 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     int days = 30;
     return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text("Adi here $days")),
-            ),
-      ),
+      home: HomePage(),
     );
   }
 }
