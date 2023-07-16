@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:food/home_page.dart';
+import 'package:food/Pages/custome.dart';
+import 'package:food/Pages/home_page.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: HomePage(),
+    return const MaterialApp(
+      home:  CustomerInformation(),
+      
     );
   }
 }
